@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Kyd Masong - Framer Template" />
+        <meta
+            name="keywords"
+            content="Framer, template,web development, styling header and footer, responsive design, navigation, images and media, forms, animation" />
+        <meta name="author" content="Kyd Tantano Masong" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin="" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&amp;display=swap"
+            rel="stylesheet" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&amp;family=Montserrat:wght@100;400&amp;display=swap"
+            rel="stylesheet" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+            rel="stylesheet" />
+        <!-- Add Font Awesome CSS link -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+        <link rel="icon" href="ssets/images/icon.png" type="image/x-icon" />
+
+        <!-- REPLACE THE TITLE BEFORE ANYTHING ELSE -->
+        <title>ICDM Resource Framer Template</title>
+
+        <script src="assets/titletext.js"></script>
+        <link rel="stylesheet" href="assets/style.css" />
+    </head>
+
+    <body>
+        <header>
+            <a href="https://www.ictclickdigitalmedia.net/" target="_blank">
+                <img src="assets/images/logo.png" alt="Logo" width="230px" />
+            </a>
+            <h3 id="pageTitle"></h3>
+        </header>
+
+        <!-- EMBED OBJECTS SUCH AS GRAPHICS AND IMAGES FORMAT -->
+        <div class="container">
+            <iframe
+                id="fullscreen-element"
+                src="https://phcode.dev/"
+                width="100%"
+                height="600px"
+                frameborder="0"
+                style="overflow: hidden">
+            </iframe>
+            <!-- Change the "src="https://phcode.dev/" to your content link -->
+            <button
+                class="fullscreen-button"
+                onclick="document.getElementById('fullscreen-element').requestFullscreen();">
+                <i class="fas fa-expand"></i> Full Screen
+            </button>
+        </div>
+
+        <!-- START MODIFYING THE FOOTER AREA HERE. -->
+        <footer>
+            <!-- FOOTER SECTION HERE -->
+            <div class="footer" id="copyright">
+                ©2004-<span id="year"></span> Framer&trade; [
+                <strong><span id="titleText"></span></strong> ]
+                <a href="https://www.ictclickdigitalmedia.net/" target="_blank"
+                    >ICT Click Digital Media.
+                </a>
+                | KTM Portfolio.
+
+                <script src="assets/grab.js"></script>
+            </div>
+        </footer>
+    </body>
+</html>
